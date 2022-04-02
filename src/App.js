@@ -1,18 +1,13 @@
-import React from 'react'
-import './App.css';
+import * as React from 'react';
+import Navbar from './components/Navbar'
 
-
-function App() {
-
+export default function App() {
+ 
   return (
-    <div className="App" >
-      <header className="App-header">
-
-      <h1>Hello there</h1>
-
-      </header>
-    </div>
+    <>
+    <Navbar />
+    </>
   );
 }
 
-export default App;
+
