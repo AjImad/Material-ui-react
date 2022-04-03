@@ -28,6 +28,15 @@
 
 // function Mui() {
 
+//shared styling
+// const style = {
+//     mt : 2,
+//     ml: 2,
+//     width: {xs: 200, sm: 250, md: 350}, // this called breakpoint
+//     backgroundColor: {xs: "orange",sm: "secondary.light", md: "#0000ff"},
+//     // boxShadow: 6
+//   }
+
 //   const heights = [150, 30, 90, 70, 110, 150, 130, 80, 50, 90, 100, 150, 30, 50, 80];
 
 //   const Item = styled(Paper)(({ theme }) => ({
@@ -171,6 +180,42 @@
 //         <img src={logo} className="App-logo" alt="logo" />
 
 //       </header>
+
+{/* <Stack>
+       <Navbar />
+        <br/><br/><br/>
+       <TextField 
+       sx={{
+         ...style,
+         mb: 2,
+         mr: 2,
+         border: "solid black 1px",
+         "& .MuiFilledInput-input": {color: "white"}
+        }}
+       variant='filled'
+       label='filled'
+       id='standard-basic'
+       color='error'
+       />
+       <TextField
+       sx={{
+         ...style,
+         "& .MuiOutlinedInput-input": {color: "white"},
+         "& .MuiInputLabel-root": {color: "purple"},
+         "& .MuiOutlinedInput-root:hover":{
+           "& > fieldset":{
+             borderColor: "orange"
+           }
+         }
+        }}
+       variant='outlined'
+       label='standard'
+       id='standard-basic'
+       color='success'
+       />
+
+    </Stack> */}
+
 //     </div>
 //   );
 // }

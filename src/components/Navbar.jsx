@@ -79,7 +79,7 @@ export default function Navbar(){
       
     return(
         <>
-        <AppBar sx={{backgroundColor: '#2f2626'}}>
+        <AppBar position='fixed' sx={{backgroundColor: '#2f2626'}}>
             <Toolbar sx={{...style.toolbar}}>
                 <Typography 
                 variant="h6"
@@ -103,16 +103,16 @@ export default function Navbar(){
                 </Search>
                 <Stack spacing={2} direction="row" sx={{display: open ? 'none' : 'flex'}}>
                     <SearchIcon sx={{...style.searchicon, color: '#5f4c4c'}} onClick={(e) => {setOpen(!open)}}/>
-                        <Badge badgeContent={4} sx={{color: '#c5aa6a'}}>
+                        <Badge badgeContent={4} sx={{color: '#c5aa6a', cursor: 'pointer'}}>
                             <MailIcon sx={{color: '#c5aa6a'}} />
                         </Badge>
-                        <Badge badgeContent={2} sx={{color: '#c5aa6a'}}>
+                        <Badge badgeContent={2} sx={{color: '#c5aa6a', cursor: 'pointer'}}>
                             <NotificationsIcon sx={{color: '#c5aa6a'}} />
                         </Badge>
                         <Avatar
                             alt="Ajbar Imad"
                             src="https://randomuser.me/api/portraits/men/1.jpg"
-                            sx={{ width: 30, height: 30 }}
+                            sx={{ width: 30, height: 30, cursor: 'pointer' }}
                         />
                 </Stack>
             </Toolbar>

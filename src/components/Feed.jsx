@@ -1,17 +1,14 @@
 import * as React from 'react';
-import { makeStyles } from '@mui/styles';
-
-
-const useStyles = makeStyles((theme) => ({
-  
-}));
-
+import Container from '@mui/material/Container'
+import Post from './Post'
 
 export default function Feed() {
-  const classes = useStyles();
   return (
     <>
-
+      <Container sx={{height: '100vh', paddingTop: {xs: 9, sm: 10, md: 10}}}>
+        <Post />
+        <Post />
+      </Container>
     </>
   );
 }

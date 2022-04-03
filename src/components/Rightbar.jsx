@@ -1,17 +1,10 @@
 import * as React from 'react';
-import { makeStyles } from '@mui/styles';
-
-
-const useStyles = makeStyles((theme) => ({
-  
-}));
-
+import Container from '@mui/material/Container';
 
 export default function Rightbar() {
-  const classes = useStyles();
   return (
     <>
-
+      <Container sx={{height: '100vh', paddingTop: {xs: 9, sm: 10, md: 10}, display: {xs: 'none', sm:'block',} }}>Rightbar</Container>
     </>
   );
 }
