@@ -13,8 +13,8 @@ export default function App() {
       <Navbar />
       <Grid container spacing={2}>
         <Grid item xs={2} sm={2} md={2} lg={2}> <Leftbar/> </Grid>
-        <Grid item xs={10} sm={7} md={7} lg={7}> <Feed /> </Grid>
-        <Grid item sm={3} md={3} lg={3}> <Rightbar /> </Grid>
+        <Grid item xs={10} sm={10} md={10} lg={7}> <Feed /> </Grid>
+        <Grid item lg={3}> <Rightbar /> </Grid>
       </Grid>
       <Add />
     </>

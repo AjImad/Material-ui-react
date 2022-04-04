@@ -25,6 +25,10 @@ export default function Post() {
                         Eveniet dolorem ducimus veritatis nisi, ab eaque ullam 
                         numquam cumque nesciunt in totam quae aperiam beatae, adipisci 
                         veniam a voluptate placeat praesentium!
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Eveniet dolorem ducimus veritatis nisi, ab eaque ullam 
+                        numquam cumque nesciunt in totam quae aperiam beatae, adipisci 
+                        veniam a voluptate placeat praesentium!
                     </Typography>
                 </CardContent>
             </CardActionArea>
@@ -46,6 +50,68 @@ export default function Post() {
                     Sophie Mosque
                     </Typography>
                     <Typography variant="body2" color="text.secondary">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Eveniet dolorem ducimus veritatis nisi, ab eaque ullam 
+                        numquam cumque nesciunt in totam quae aperiam beatae, adipisci 
+                        veniam a voluptate placeat praesentium!
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Eveniet dolorem ducimus veritatis nisi, ab eaque ullam 
+                        numquam cumque nesciunt in totam quae aperiam beatae, adipisci 
+                        veniam a voluptate placeat praesentium!
+                    </Typography>
+                </CardContent>
+            </CardActionArea>
+            <CardActions>
+                <Button size="small">Share</Button>
+                <Button size="small">Learm More</Button>
+            </CardActions>
+        </Card>
+        <Card sx={{mb: 5}}>
+            <CardActionArea>
+                <CardMedia 
+                    component="img"
+                    sx={{ height: {xs: 220, sm: 300, md: 340}}}
+                    image="https://images.unsplash.com/photo-1516455207990-7a41ce80f7ee?w=248&fit=crop&auto=format&dpr=2"
+                    alt="White Room"
+                />
+                <CardContent>
+                    <Typography gutterBottom variant="h5" component="div">
+                    White Room
+                    </Typography>
+                    <Typography variant="body2" color="text.secondary">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Eveniet dolorem ducimus veritatis nisi, ab eaque ullam 
+                        numquam cumque nesciunt in totam quae aperiam beatae, adipisci 
+                        veniam a voluptate placeat praesentium!
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Eveniet dolorem ducimus veritatis nisi, ab eaque ullam 
+                        numquam cumque nesciunt in totam quae aperiam beatae, adipisci 
+                        veniam a voluptate placeat praesentium!
+                    </Typography>
+                </CardContent>
+            </CardActionArea>
+            <CardActions>
+                <Button size="small">Share</Button>
+                <Button size="small">Learm More</Button>
+            </CardActions>
+        </Card>
+        <Card sx={{mb: 5}}>
+            <CardActionArea>
+                <CardMedia 
+                    component="img"
+                    sx={{ height: {xs: 220, sm: 300, md: 340}}}
+                    image="https://images.unsplash.com/photo-1444418776041-9c7e33cc5a9c?w=242&h=121&fit=crop&auto=format&dpr=2"
+                    alt="Sophie Mosque"
+                />
+                <CardContent>
+                    <Typography gutterBottom variant="h5" component="div">
+                    Coffe Break
+                    </Typography>
+                    <Typography variant="body2" color="text.secondary">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Eveniet dolorem ducimus veritatis nisi, ab eaque ullam 
+                        numquam cumque nesciunt in totam quae aperiam beatae, adipisci 
+                        veniam a voluptate placeat praesentium!
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
                         Eveniet dolorem ducimus veritatis nisi, ab eaque ullam 
                         numquam cumque nesciunt in totam quae aperiam beatae, adipisci 

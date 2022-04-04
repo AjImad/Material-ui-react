@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { useState } from 'react';
-import { Button, Fab, FormControl, FormControlLabel, FormLabel, InputLabel, MenuItem, Radio, RadioGroup, Select, Snackbar, TextField, Tooltip, Typography } from '@mui/material';
+import { Button, Fab, FormControl, FormControlLabel, FormLabel, InputLabel, MenuItem, Radio, RadioGroup, Select, Snackbar, TextField, Tooltip } from '@mui/material';
 import Modal from '@mui/material/Modal';
 import AddIcon from '@mui/icons-material/Add';
 import { Box, createTheme } from '@mui/system';
@@ -52,7 +52,7 @@ export default function Feed() {
         width: 500,
         height: 550,
         bgcolor: 'background.paper',
-        backgroundColor: '#fff',
+        backgroundColor: 'white',
         p: 3,
         borderRadius: 3,
         [theme.breakpoints.down('sm')]:{
@@ -94,7 +94,7 @@ export default function Feed() {
                 defaultValue="Tell Your Story..."
                 sx={{width: '100%', mb: 3}}
             />
-            <FormControl variant="standard" sx={{ m: 1, minWidth: 120, mb: 3}}>
+            <FormControl variant="standard" sx={{ m: 1, minWidth: 120, mb: 3, ml: {xs: 3}}}>
                 <InputLabel id="demo-simple-select-filled-label">Visibility</InputLabel>
                 <Select
                 labelId="demo-simple-select-filled-label"
@@ -109,7 +109,7 @@ export default function Feed() {
                     <MenuItem value="Private">Private</MenuItem>
                 </Select>
             </FormControl>
-            <FormControl sx={{display: 'block', mb: 3}}>
+            <FormControl sx={{display: 'block', mb: 3, ml: {xs: 3}}}>
                 <FormLabel id="demo-radio-buttons-group-label">Who can comment?</FormLabel>
                 <RadioGroup>
                     <FormControlLabel value="Everybody" control={<Radio />} label="Everybody" />
@@ -119,14 +119,15 @@ export default function Feed() {
                 </RadioGroup>
             </FormControl>
             <Button 
-                variant="outlined" color="success" 
-                sx={{mr: 3}}
+                variant="contained" color="primary" 
+                sx={{mr: 3, ml: {xs: 3}}}
                 onClick={() => {setOpenAlert(true)}}
                 >Create</Button>
             <Button 
                 variant="outlined" color="error"
                 onClick={() => {handleClose()}}
-            >Cancel</Button>
+            >Cancel
+            </Button>
         </Box>
      </Modal>
      <Snackbar open={openAlert} autoHideDuration={6000} onClose={handleClose}>

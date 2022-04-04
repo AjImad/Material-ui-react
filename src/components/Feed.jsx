@@ -7,7 +7,6 @@ export default function Feed() {
     <>
       <Container sx={{height: '100vh', paddingTop: {xs: 9, sm: 10, md: 10}}}>
         <Post />
-        <Post />
       </Container>
     </>
   );
